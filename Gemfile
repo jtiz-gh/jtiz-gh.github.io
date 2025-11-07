@@ -7,4 +7,6 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
   gem "jekyll-scholar"   # <-- this is the key bit
+  gem "jekyll-theme-primer"
 end
+
