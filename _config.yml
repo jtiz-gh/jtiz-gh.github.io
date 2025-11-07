@@ -1,33 +1,37 @@
+title: "James Tizard"
+theme: jekyll-theme-primer
+
 plugins:
+  - jekyll-scholar
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-scholar
 
-title: "James Tizard"
+markdown: kramdown
+kramdown:
+  input: GFM
 
 scholar:
   style: _bibliography/acm-sigchi-proceedings.csl
   locale: en
 
+  # Sorting / grouping
   sort_by: ordering, author
   order: ascending
-
   group_by: year
   group_order: descending
 
-  source: ./_bibliography
+  # Sources
+  source: _bibliography
   bibliography: references.bib
 
-  bibtex_filters: latex	
-  bibliography_template: bib
-  
+  # Output shaping
   replace_strings: true
-  join_strings:    true
+  join_strings: true
+  bibliography_list_tag: div
+  bibliography_item_tag: span
 
-  bibliography_list_tag: 'div'
-  bibliography_item_tag: 'span'
-  
-  bibtex_skip_fields: ['pdf', 'code', 'video', 'slides', 'ordering']
-  
+  # Skip fields you don't want printed
+  bibtex_skip_fields: [pdf, code, video, slides, ordering]
+
+  # Show everything unless filtered in-page
   query: "@*"
-
