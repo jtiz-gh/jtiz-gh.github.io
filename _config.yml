@@ -1,8 +1,7 @@
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-  
-gems: ['jekyll/scholar'] 
+  - jekyll-scholar
 
 title: "James Tizard"
 
@@ -31,3 +30,4 @@ scholar:
   bibtex_skip_fields: ['pdf', 'code', 'video', 'slides', 'ordering']
   
   query: "@*"
+
