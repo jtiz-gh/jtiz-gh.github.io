@@ -1,10 +1,10 @@
 source "https://rubygems.org"
 
-# Use the GitHub Pages dependency set, but we’ll add our own plugin too.
-gem "github-pages", group: :jekyll_plugins
+# If you currently have `gem "github-pages"`, remove it for Action-based builds.
+gem "jekyll", "~> 4.3"   # 3.x also works; 4.x is recommended
 
-# Add jekyll-scholar so {% bibliography %} is a known tag
-gem "jekyll-scholar"
-
-# Optional: quiet the Faraday warning (not required, but nice)
-gem "faraday-retry"
+group :jekyll_plugins do
+  gem "jekyll-seo-tag"
+  gem "jekyll-sitemap"
+  gem "jekyll-scholar"   # <-- this is the key bit
+end
