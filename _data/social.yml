@@ -1,9 +1,6 @@
 - name: Email
   url: mailto:james.tizard@auckland.ac.nz;
   icon:	fas fa-envelope
-- name: Lab website
-  url: https://hasel.auckland.ac.nz/
-  icon:	fa fa-university
 - name: Google Scholar
   url: https://scholar.google.com/citations?hl=en&user=i_VWKRoAAAAJ
   icon: ai ai-google-scholar
@@ -19,4 +16,8 @@
 - name: GitHub
   url: https://github.com/jtiz-gh
   icon:	fab fa-github
+- name: Lab website
+  url: https://hasel.auckland.ac.nz/
+  icon:	fa fa-university
+
 
