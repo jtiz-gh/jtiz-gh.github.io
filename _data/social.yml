@@ -1,12 +1,9 @@
 - name: Email
-  url: mailto:jtiz003@aucklanduni.ac.nz;
+  url: mailto:james.tizard@auckland.ac.nz;
   icon:	fas fa-envelope
 - name: Lab website
   url: https://hasel.auckland.ac.nz/
   icon:	fa fa-university
-- name: Twitter
-  url: https://twitter.com/TizardJames
-  icon: fab fa-twitter
 - name: Google Scholar
   url: https://scholar.google.com/citations?hl=en&user=i_VWKRoAAAAJ
   icon: ai ai-google-scholar
@@ -20,5 +17,6 @@
   url: https://orcid.org/0000-0001-9076-0852
   icon: ai ai-orcid
 - name: GitHub
-  url: https://github.com/jtiz003
+  url: https://github.com/jtiz-gh
   icon:	fab fa-github
+
