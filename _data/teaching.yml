@@ -1,16 +1,33 @@
 - course:
   name: Advanced Software Requirements Engineering (SOFTENG 754)
   place: University of Auckland
-  years: 2022, 2023 
+  years: 2022, 2023, 2024, 2025, 2026
 - course:
   name: Software Evolution and Maintenance (SOFTENG 310)
   place: University of Auckland
-  years: 2022, 2023
+  years: 2022, 2023, 2024, 2025, 2026
 - course:
   name: Software Quality Assurance (SOFTENG 283)
   place: University of Auckland
-  years: 2022, 2023
+  years: 2022, 2023, 2024, 2025, 2026
+- course: 
+  name: Object-Oriented Programming (SOFTENG 281)
+  place: University of Auckland
+  years: 2026
+- course:
+  name: Software Engineering Design 1 (SOFTENG 206)
+  place: University of Auckland
+  years: 2026
+- course:
+  name: Advanced Agile and Lean Software Development (SOFTENG 761)
+  place: University of Auckland
+  years: 2024
+- course:
+  name: Software, Data and Intelligent Automation (ENGGEN 101G)
+  place: University of Auckland
+  years: 2024
 - course:
   name: Advanced Software Engineering Development Methods (SOFTENG 701)
   place: University of Auckland
   years: 2022
+
